@@ -14,6 +14,14 @@ sum = 1+2+3+...+10 = 55 */
 #include <stdio.h>
 int main() {
   
+    int num,i,sum=0;
+    printf("Enter the number you want to add: ");
+    scanf("%d", &num);
+    for(i=0;i<=num;i++){
+        sum  = sum + i;
+    }
+    printf("%d", sum);
+
   return 0;
 }
 
